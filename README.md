@@ -63,16 +63,6 @@ Running `make_tables.py` on the files in `results/` gives `results/results_table
 
 The per-trial and per-hop records with every raw model output are available from the corresponding author (farwairfan112@gmail.com) on reasonable request.
 
-## Citation
-
-```bibtex
-@inproceedings{irfan2026trust,
-  title     = {Trust Propagation and Containment in Multi-Agent {LLM} Pipelines: An Empirical Study of Prompt Injection Attacks and Defenses},
-  author    = {Irfan, Farwa and Randhawa, Muhammad Saad and Imtiaz, Usama},
-  booktitle = {International Conference on Intelligent Digital Systems and Sustainable Technology (ICIDST 2026)},
-  year      = {2026},
-  note      = {Submitted}
-}
 ```
 
 ## Licence
