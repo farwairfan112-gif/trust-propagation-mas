@@ -1,0 +1,36 @@
+{
+ "extra_params": {
+  "openai/gpt-oss-120b": {},
+  "openai/gpt-oss-20b": {},
+  "qwen/qwen3.8-27b": {
+   "reasoning_effort": "none"
+  }
+ },
+ "probe": {
+  "openai/gpt-oss-120b": {
+   "extra": {},
+   "finish": "stop",
+   "think_tags_in_raw": false
+  },
+  "openai/gpt-oss-20b": {
+   "extra": {},
+   "finish": "stop",
+   "think_tags_in_raw": false
+  },
+  "qwen/qwen3.8-27b": {
+   "extra": {
+    "reasoning_effort": "none"
+   },
+   "finish": "stop",
+   "think_tags_in_raw": false
+  }
+ },
+ "reasoning_effort_gpt_oss": "low",
+ "max_completion_tokens": 1024,
+ "models": [
+  "openai/gpt-oss-120b",
+  "openai/gpt-oss-20b",
+  "qwen/qwen3.8-27b"
+ ],
+ "ingestion_model": "qwen/qwen3.8-27b"
+}

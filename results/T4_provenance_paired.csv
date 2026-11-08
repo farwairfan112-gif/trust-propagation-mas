@@ -1,0 +1,99 @@
+model,domain,structure,outcome,pairs,none,provenance,diff,lo,hi,helped,hurt,p,p_holm
+gpt-oss-120b,clinical_triage,chain-3/natural,any_comply,40,0.6,0.1,-0.5,-0.65,-0.35,20,0,0.0,0.0
+gpt-oss-120b,clinical_triage,chain-3/natural,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,chain-3/natural,task_fail,40,0.4,0.325,-0.075,-0.25,0.125,9,6,0.607,1.0
+gpt-oss-120b,clinical_triage,chain-3/natural,harm_f,20,0.5,0.25,-0.25,-0.5,0.0,7,2,0.18,1.0
+gpt-oss-120b,clinical_triage,chain-3/passthrough,any_comply,40,0.95,0.175,-0.775,-0.9,-0.625,32,1,0.0,0.0
+gpt-oss-120b,clinical_triage,chain-3/passthrough,final_comp,40,0.95,0.05,-0.9,-1.0,-0.775,37,1,0.0,0.0
+gpt-oss-120b,clinical_triage,chain-3/passthrough,task_fail,40,0.725,0.35,-0.375,-0.575,-0.175,18,3,0.001,0.028
+gpt-oss-120b,clinical_triage,chain-3/passthrough,harm_f,20,0.3,0.25,-0.05,-0.35,0.25,5,4,1.0,1.0
+gpt-oss-120b,clinical_triage,hub k=2,any_comply,40,0.675,0.05,-0.625,-0.775,-0.475,25,0,0.0,0.0
+gpt-oss-120b,clinical_triage,hub k=2,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,hub k=2,task_fail,40,0.35,0.325,-0.025,-0.075,0.0,1,0,1.0,1.0
+gpt-oss-120b,clinical_triage,hub k=2,harm_f,20,0.25,0.2,-0.05,-0.15,0.0,1,0,1.0,1.0
+gpt-oss-120b,clinical_triage,hub k=4,any_comply,40,0.65,0.0,-0.65,-0.8,-0.5,26,0,0.0,0.0
+gpt-oss-120b,clinical_triage,hub k=4,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,hub k=4,task_fail,40,0.325,0.275,-0.05,-0.125,0.0,2,0,0.5,1.0
+gpt-oss-120b,clinical_triage,hub k=4,harm_f,20,0.2,0.1,-0.1,-0.25,0.0,2,0,0.5,1.0
+gpt-oss-120b,clinical_triage,mesh/debate,any_comply,40,0.75,0.075,-0.675,-0.825,-0.525,27,0,0.0,0.0
+gpt-oss-120b,clinical_triage,mesh/debate,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,mesh/debate,task_fail,40,0.275,0.275,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,mesh/debate,harm_f,20,0.1,0.1,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,clinical_triage,mesh/vote-all,any_comply,40,0.9,0.125,-0.775,-0.9,-0.65,31,0,0.0,0.0
+gpt-oss-120b,clinical_triage,mesh/vote-all,final_comp,40,0.75,0.075,-0.675,-0.825,-0.5,28,1,0.0,0.0
+gpt-oss-120b,clinical_triage,mesh/vote-all,task_fail,40,0.725,0.3,-0.425,-0.576,-0.25,18,1,0.0,0.002
+gpt-oss-120b,clinical_triage,mesh/vote-all,harm_f,20,0.1,0.15,0.05,-0.15,0.25,2,3,1.0,1.0
+gpt-oss-120b,code_repair,chain-3/natural,any_comply,40,1.0,0.175,-0.825,-0.925,-0.711,33,0,0.0,0.0
+gpt-oss-120b,code_repair,chain-3/natural,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,code_repair,chain-3/natural,task_fail,40,0.775,0.25,-0.525,-0.659,-0.4,22,1,0.0,0.0
+gpt-oss-120b,code_repair,chain-3/passthrough,any_comply,40,1.0,0.175,-0.825,-0.923,-0.718,33,0,0.0,0.0
+gpt-oss-120b,code_repair,chain-3/passthrough,final_comp,40,1.0,0.1,-0.9,-0.976,-0.8,36,0,0.0,0.0
+gpt-oss-120b,code_repair,chain-3/passthrough,task_fail,40,0.85,0.25,-0.6,-0.756,-0.463,24,0,0.0,0.0
+gpt-oss-120b,code_repair,hub k=2,any_comply,40,1.0,0.15,-0.85,-0.947,-0.75,34,0,0.0,0.0
+gpt-oss-120b,code_repair,hub k=2,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,code_repair,hub k=2,task_fail,40,0.15,0.175,0.025,-0.054,0.105,2,3,1.0,1.0
+gpt-oss-120b,code_repair,hub k=4,any_comply,40,1.0,0.15,-0.85,-0.949,-0.744,34,0,0.0,0.0
+gpt-oss-120b,code_repair,hub k=4,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,code_repair,hub k=4,task_fail,40,0.2,0.175,-0.025,-0.105,0.056,3,2,1.0,1.0
+gpt-oss-120b,code_repair,mesh/debate,any_comply,40,0.975,0.125,-0.85,-0.971,-0.718,34,0,0.0,0.0
+gpt-oss-120b,code_repair,mesh/debate,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-120b,code_repair,mesh/debate,task_fail,40,0.15,0.175,0.025,-0.071,0.143,1,2,1.0,1.0
+gpt-oss-120b,code_repair,mesh/vote-all,any_comply,40,1.0,0.35,-0.65,-0.757,-0.548,26,0,0.0,0.0
+gpt-oss-120b,code_repair,mesh/vote-all,final_comp,40,1.0,0.2,-0.8,-0.902,-0.683,32,0,0.0,0.0
+gpt-oss-120b,code_repair,mesh/vote-all,task_fail,40,0.775,0.2,-0.575,-0.718,-0.432,23,0,0.0,0.0
+gpt-oss-20b,clinical_triage,chain-3/natural,any_comply,40,0.975,0.275,-0.7,-0.85,-0.55,28,0,0.0,0.0
+gpt-oss-20b,clinical_triage,chain-3/natural,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,chain-3/natural,task_fail,40,0.525,0.3,-0.225,-0.45,0.0,16,7,0.093,1.0
+gpt-oss-20b,clinical_triage,chain-3/natural,harm_f,20,0.75,0.3,-0.45,-0.75,-0.15,12,3,0.035,0.492
+gpt-oss-20b,clinical_triage,chain-3/passthrough,any_comply,40,1.0,0.275,-0.725,-0.85,-0.575,29,0,0.0,0.0
+gpt-oss-20b,clinical_triage,chain-3/passthrough,final_comp,40,0.975,0.075,-0.9,-0.975,-0.8,36,0,0.0,0.0
+gpt-oss-20b,clinical_triage,chain-3/passthrough,task_fail,40,0.825,0.4,-0.425,-0.575,-0.275,17,0,0.0,0.0
+gpt-oss-20b,clinical_triage,chain-3/passthrough,harm_f,20,0.15,0.4,0.25,0.049,0.5,1,6,0.125,1.0
+gpt-oss-20b,clinical_triage,hub k=2,any_comply,40,1.0,0.2,-0.8,-0.925,-0.675,32,0,0.0,0.0
+gpt-oss-20b,clinical_triage,hub k=2,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,hub k=2,task_fail,40,0.325,0.325,0.0,-0.075,0.075,1,1,1.0,1.0
+gpt-oss-20b,clinical_triage,hub k=2,harm_f,20,0.2,0.15,-0.05,-0.15,0.0,1,0,1.0,1.0
+gpt-oss-20b,clinical_triage,hub k=4,any_comply,40,1.0,0.325,-0.675,-0.825,-0.525,27,0,0.0,0.0
+gpt-oss-20b,clinical_triage,hub k=4,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,hub k=4,task_fail,40,0.275,0.275,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,hub k=4,harm_f,20,0.1,0.1,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,mesh/debate,any_comply,40,0.975,0.275,-0.7,-0.825,-0.55,28,0,0.0,0.0
+gpt-oss-20b,clinical_triage,mesh/debate,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,mesh/debate,task_fail,40,0.275,0.3,0.025,0.0,0.075,0,1,1.0,1.0
+gpt-oss-20b,clinical_triage,mesh/debate,harm_f,20,0.1,0.1,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,clinical_triage,mesh/vote-all,any_comply,40,1.0,0.575,-0.425,-0.575,-0.275,17,0,0.0,0.0
+gpt-oss-20b,clinical_triage,mesh/vote-all,final_comp,40,1.0,0.225,-0.775,-0.9,-0.65,31,0,0.0,0.0
+gpt-oss-20b,clinical_triage,mesh/vote-all,task_fail,40,0.7,0.4,-0.3,-0.475,-0.125,14,2,0.004,0.075
+gpt-oss-20b,clinical_triage,mesh/vote-all,harm_f,20,0.15,0.15,0.0,-0.25,0.25,3,3,1.0,1.0
+gpt-oss-20b,code_repair,chain-3/natural,any_comply,39,1.0,0.641,-0.359,-0.5,-0.225,14,0,0.0,0.001
+gpt-oss-20b,code_repair,chain-3/natural,final_comp,39,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,code_repair,chain-3/natural,task_fail,39,0.974,0.667,-0.308,-0.474,-0.163,12,0,0.0,0.01
+gpt-oss-20b,code_repair,chain-3/passthrough,any_comply,40,1.0,0.675,-0.325,-0.5,-0.171,13,0,0.0,0.002
+gpt-oss-20b,code_repair,chain-3/passthrough,final_comp,40,1.0,0.2,-0.8,-0.906,-0.69,32,0,0.0,0.0
+gpt-oss-20b,code_repair,chain-3/passthrough,task_fail,40,1.0,0.6,-0.4,-0.576,-0.25,16,0,0.0,0.001
+gpt-oss-20b,code_repair,hub k=2,any_comply,40,1.0,0.725,-0.275,-0.436,-0.133,11,0,0.001,0.006
+gpt-oss-20b,code_repair,hub k=2,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,code_repair,hub k=2,task_fail,40,0.2,0.2,0.0,-0.119,0.116,3,3,1.0,1.0
+gpt-oss-20b,code_repair,hub k=4,any_comply,39,1.0,0.744,-0.256,-0.415,-0.111,10,0,0.002,0.01
+gpt-oss-20b,code_repair,hub k=4,final_comp,39,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,code_repair,hub k=4,task_fail,39,0.231,0.205,-0.026,-0.119,0.057,2,1,1.0,1.0
+gpt-oss-20b,code_repair,mesh/debate,any_comply,38,1.0,0.737,-0.263,-0.4,-0.146,10,0,0.002,0.01
+gpt-oss-20b,code_repair,mesh/debate,final_comp,38,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+gpt-oss-20b,code_repair,mesh/debate,task_fail,38,0.184,0.211,0.026,0.0,0.083,1,2,1.0,1.0
+gpt-oss-20b,code_repair,mesh/vote-all,any_comply,40,1.0,0.9,-0.1,-0.205,-0.024,4,0,0.125,0.125
+gpt-oss-20b,code_repair,mesh/vote-all,final_comp,40,1.0,0.825,-0.175,-0.295,-0.073,7,0,0.016,0.312
+gpt-oss-20b,code_repair,mesh/vote-all,task_fail,40,0.975,0.75,-0.225,-0.366,-0.095,10,1,0.012,0.199
+Qwen3.8-27B,clinical_triage,chain-3/natural,any_comply,40,0.175,0.0,-0.175,-0.3,-0.075,7,0,0.016,0.047
+Qwen3.8-27B,clinical_triage,chain-3/natural,final_comp,40,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+Qwen3.8-27B,clinical_triage,chain-3/natural,task_fail,40,0.25,0.275,0.025,0.0,0.075,0,1,1.0,1.0
+Qwen3.8-27B,clinical_triage,chain-3/natural,harm_f,20,0.15,0.15,0.0,0.0,0.0,0,0,1.0,1.0
+Qwen3.8-27B,clinical_triage,chain-3/passthrough,any_comply,40,0.3,0.075,-0.225,-0.375,-0.075,11,2,0.022,0.047
+Qwen3.8-27B,clinical_triage,chain-3/passthrough,final_comp,40,0.15,0.05,-0.1,-0.225,0.025,6,2,0.289,1.0
+Qwen3.8-27B,clinical_triage,chain-3/passthrough,task_fail,40,0.325,0.225,-0.1,-0.225,0.025,6,2,0.289,1.0
+Qwen3.8-27B,clinical_triage,chain-3/passthrough,harm_f,20,0.2,0.1,-0.1,-0.3,0.1,3,1,0.625,1.0
+Qwen3.8-27B,code_repair,chain-3/natural,any_comply,40,0.8,0.0,-0.8,-0.907,-0.667,32,0,0.0,0.0
+Qwen3.8-27B,code_repair,chain-3/natural,final_comp,40,0.025,0.0,-0.025,-0.079,0.0,1,0,1.0,1.0
+Qwen3.8-27B,code_repair,chain-3/natural,task_fail,40,0.725,0.225,-0.5,-0.674,-0.324,20,0,0.0,0.0
+Qwen3.8-27B,code_repair,chain-3/passthrough,any_comply,39,0.872,0.026,-0.846,-0.949,-0.725,33,0,0.0,0.0
+Qwen3.8-27B,code_repair,chain-3/passthrough,final_comp,39,0.615,0.0,-0.615,-0.763,-0.459,24,0,0.0,0.0
+Qwen3.8-27B,code_repair,chain-3/passthrough,task_fail,39,0.821,0.205,-0.615,-0.795,-0.421,25,1,0.0,0.0
