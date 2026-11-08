@@ -3,9 +3,6 @@
 Code, prompts and results for the paper
 
 > **Trust Propagation and Containment in Multi-Agent LLM Pipelines: An Empirical Study of Prompt Injection Attacks and Defenses**
-> Farwa Irfan, Muhammad Saad Randhawa, Usama Imtiaz
-> Department of Artificial Intelligence and Data Science, FAST-NUCES Islamabad
-> ICIDST 2026 (submitted)
 
 The study follows an injected instruction hop by hop through multi-agent LLM pipelines and compares every attacked pipeline with a clean run of the same pipeline on the same cases. It uses two tasks with a known correct answer: clinical triage of 40 notes built from PAD-UFES-20 metadata, and repair of 24 QuixBugs programs checked by their unit tests. In total there are 5,752 trials with three open-weight models, six injection framings, four pipeline structures and four defences.
 
